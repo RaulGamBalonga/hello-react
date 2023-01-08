@@ -14,6 +14,7 @@ const Components = () => {
 
   return (
     <div>
+        <p>Prueba de testeo: </p>
         <input type="text" value={text} onChange = {textOnChange} />
         <button onClick={buttonOnClick} >Actualizar</button>
         <p>Texto input: {text}</p>
